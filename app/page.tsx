@@ -18,9 +18,11 @@ export default function Home() {
           <p className="mb-5 font-mono text-[10px] font-bold uppercase tracking-[0.2em] text-[#8ebddd]">
             Current Roles
           </p>
-          <h1 className="mx-auto max-w-4xl text-4xl font-bold leading-[1.06] tracking-[-0.04em] md:text-6xl">
+          <h1 className="mx-auto max-w-5xl text-2xl font-bold leading-[1.2] tracking-[-0.02em] md:text-4xl">
             {siteConfig.orgName} conducts confidential, technical executive searches in
-            semiconductor, aerospace, and defense. Review current openings below.
+            semiconductor, aerospace, and defense.
+            <br />
+            Review current openings below.
           </h1>
         </div>
         <div className="absolute bottom-0 left-0 right-0 h-px bg-[#3e9bd7]/50" aria-hidden="true" />

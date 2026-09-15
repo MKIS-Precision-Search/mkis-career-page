@@ -4,7 +4,7 @@ export function HeroGraphic() {
       <img
         src="/hero-reference.png"
         alt=""
-        className="h-full w-full translate-y-[25%] object-cover object-center"
+        className="h-full w-full object-cover object-center"
       />
       <div className="absolute inset-0 bg-[#06192a]/35" />
       <div className="absolute inset-0 bg-gradient-to-b from-[#06192a]/45 via-[#06192a]/10 to-[#06192a]/55" />

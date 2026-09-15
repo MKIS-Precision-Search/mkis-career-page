@@ -5,7 +5,7 @@ import { SectionHeading } from '@/components/section-heading'
 import { HeroGraphic } from '@/components/hero-graphic'
 
 export function JobDetail({ job }: { job: Job }) {
-  const applyUrl = `${siteConfig.applyFormBaseUrl}?job=${encodeURIComponent(job.reference)}`
+    const applyUrl = `${siteConfig.applyFormBaseUrl}?entry.657177684=${encodeURIComponent(job.reference)}`
 
   return (
     <>

@@ -12,9 +12,9 @@ export default function Home() {
     <main className="min-h-screen bg-[#f4f6f8] text-[#12243a]">
       <SiteHeader />
 
-      <section className="relative overflow-hidden bg-[#12243a] text-white">
+      <section className="relative min-h-[440px] overflow-hidden bg-[#12243a] text-white md:min-h-[520px]">
         <HeroGraphic />
-        <div className="relative mx-auto max-w-[1240px] px-6 pb-16 pt-14 text-center lg:px-10 lg:pb-24 lg:pt-20">
+        <div className="relative mx-auto flex min-h-[440px] max-w-[1240px] items-center justify-center px-6 py-14 text-center md:min-h-[520px] lg:px-10 lg:py-20">
           <p className="mb-5 font-mono text-[10px] font-bold uppercase tracking-[0.2em] text-[#8ebddd]">
             Current Roles
           </p>

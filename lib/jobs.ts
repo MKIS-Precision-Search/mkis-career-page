@@ -33,6 +33,28 @@ export type Job = {
 // Swapping this for a real data source later means replacing this file's
 // export, not touching any page or component.
 export const jobs: Job[] = [
+  /* MKIS-AUTO:senior-power-supply-design-engineer-20 START (provisional slug -- managed by the MKIS ATS, do not edit by hand) */
+    {
+      slug: 'senior-power-supply-design-engineer-20',
+      title: 'Senior Power Supply Design Engineer',
+      reference: 'MKIS-JO-20',
+      location: 'Rochester, NY',
+      locationType: 'On-site',
+      city: 'Rochester',
+      region: 'NY',
+      country: 'US',
+      classification: 'Executive Search',
+      summary: 'Role Title: Senior Power Supply Design Engineer',
+      description: 'Role Title: Senior Power Supply Design Engineer\nLocation: Rochester, NY\n\nRequired Skills:\nDC-DC and AC-DC analog and digital power converter experience\nLeading projects within power supply design\nUnderstanding of technical requirements, development of schematics and layouts (Rigid and Rigid-Flex)\nImplementation of validation test plans\nSimulation and analysis on Power Supply circuitry\nBring-up and integration at board and system levels\nSubsystem and system level verification and validation testing\nQuidance and mentoring of engineering resources\n4+ years (Graduate Deg) or 6+ years (Bachelor\'s Deg) experience in a power supply design role\n3+ years of experience with schematic capture tool usage (DxDesigner and PADS preferable)\nBS in Electrical Engineering (BSEE) or equivalent discipline\nUS citizenship is required\nAbility to obtain US Government Secret Security Clearance\n\nPreferred Skills:\nExperience with Power Supply simulation tools (LTSPICE, Matlab, etc.)\nExperience with Isolated Converter topologies and design principles including PFC\nExperience designing and evaluating power supplies for compliance with MIL-STD-704 or MIL-STD-1275\nKnowledge of EMI design and test techniques for conducted and radiated emissions/susceptibility (MIL-STD-461)\nExperience with continuous improvement techniques for manufacturing\nExperience with Configuration Management software (Agile preferred)',
+      responsibilities: [],
+      requirements: [],
+      compensationDisplay: 'Compensation discussed confidentially during the search process.',
+      employmentType: 'FULL_TIME',
+      datePosted: '2026-09-15',
+      validThrough: '2026-12-14',
+      confidential: true,
+    },
+  /* MKIS-AUTO:senior-power-supply-design-engineer-20 END */
   {
     slug: 'director-advanced-packaging-engineering',
     title: 'Director, Advanced Packaging Engineering',

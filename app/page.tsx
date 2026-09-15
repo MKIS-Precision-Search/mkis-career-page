@@ -18,11 +18,10 @@ export default function Home() {
           <p className="mb-5 font-mono text-[10px] font-bold uppercase tracking-[0.2em] text-[#8ebddd]">
             Current Roles
           </p>
-          <h1 className="mx-auto max-w-5xl text-2xl font-bold leading-[1.2] tracking-[-0.02em] md:text-4xl">
+          <h1 className="mx-auto max-w-5xl text-xl font-bold leading-[1.2] tracking-[-0.02em] md:text-3xl">
             {siteConfig.orgName} conducts confidential, technical executive searches in
             semiconductor, aerospace, and defense.
-            <br />
-            Review current openings below.
+            <span className="mt-3 block">Review current openings below.</span>
           </h1>
         </div>
         <div className="absolute bottom-0 left-0 right-0 h-px bg-[#3e9bd7]/50" aria-hidden="true" />

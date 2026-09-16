@@ -9,7 +9,7 @@ export default function Home() {
   const jobs = getAllJobs()
 
   return (
-    <main className="min-h-screen bg-[#d8e1ea] text-[#12243a]">
+    <main className="min-h-screen bg-[#c2c8cd] text-[#12243a]">
       <SiteHeader />
 
       <section className="relative min-h-[440px] overflow-hidden bg-[#12243a] text-white md:min-h-[520px]">
@@ -44,7 +44,7 @@ export default function Home() {
             href="https://docs.google.com/forms/d/e/1FAIpQLSeQp0jlRDpvi2wNf1TdunLjDhGSV9jBHHsEcEK-4durwoMFfw/viewform?usp=pp_url&entry.657177684=Manual+Upload"
             target="_blank"
             rel="noopener noreferrer"
-            className="shrink-0 rounded-lg bg-[#1f72b7] px-5 py-3 text-[15px] font-semibold text-white transition hover:bg-[#155a92]"
+            className="shrink-0 rounded-lg bg-[#0d1b2d] px-5 py-3 text-[15px] font-semibold text-white transition hover:bg-[#12243a]"
           >
             Upload Resume
           </a>

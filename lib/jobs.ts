@@ -33,6 +33,39 @@ export type Job = {
 // Swapping this for a real data source later means replacing this file's
 // export, not touching any page or component.
 export const jobs: Job[] = [
+  /* MKIS-AUTO:senior-power-supply-design-engineer-20 START (provisional slug -- managed by the MKIS ATS, do not edit by hand) */
+    {
+      slug: 'senior-power-supply-design-engineer-20',
+      title: 'Senior Power Supply Design Engineer',
+      reference: 'MKIS-JO-20',
+      location: 'Rochester, NY',
+      locationType: 'On-site',
+      city: 'Rochester',
+      region: 'NY',
+      country: 'US',
+      classification: 'Executive Search',
+      summary: '',
+      description: '',
+      responsibilities: [],
+      requirements: [
+        'DC-DC and AC-DC analog and digital power converter experience',
+        'Leading projects within power supply design',
+        'Understanding of technical requirements, development of schematics and layouts (Rigid and Rigid-Flex)',
+        'Implementation of validation test plans',
+        'Simulation and analysis on Power Supply circuitry',
+        'Bring-up and integration at board and system levels',
+        'Subsystem and system level verification and validation testing',
+        'Quidance and mentoring of engineering resources',
+        '4+ years (Graduate Deg) or 6+ years (Bachelor\'s Deg) experience in a power supply design role',
+        '3+ years of experience with schematic capture tool usage (DxDesigner and PADS preferable)',
+      ],
+      compensationDisplay: 'Compensation discussed confidentially during the search process.',
+      employmentType: 'FULL_TIME',
+      datePosted: '2026-09-16',
+      validThrough: '2026-12-14',
+      confidential: true,
+    },
+  /* MKIS-AUTO:senior-power-supply-design-engineer-20 END */
   /* MKIS-AUTO:senior-construction-accountant-18 START (provisional slug -- managed by the MKIS ATS, do not edit by hand) */
     {
       slug: 'senior-construction-accountant-18',

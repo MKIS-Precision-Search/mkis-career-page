@@ -28,6 +28,20 @@ export default function Home() {
       </section>
 
       <div className="mx-auto max-w-[1240px] px-6 py-14 lg:px-10 lg:py-20">
+        <div className="mb-10 flex flex-col items-start justify-between gap-4 rounded-xl border border-[#d6dde4] bg-white px-6 py-5 sm:flex-row sm:items-center">
+          <p className="text-[16px] leading-7 text-[#4c5d6c]">
+            The roles below do not represent all positions available. If you would
+            like to submit your resume for current and future searches, click Upload Resume.
+          </p>
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeQp0jlRDpvi2wNf1TdunLjDhGSV9jBHHsEcEK-4durwoMFfw/viewform"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="shrink-0 rounded-lg bg-[#1f72b7] px-5 py-3 text-[15px] font-semibold text-white transition hover:bg-[#155a92]"
+          >
+            Upload Resume
+          </a>
+        </div>
         {jobs.length === 0 ? (
           <p className="text-[16px] leading-7 text-[#4c5d6c]">
             No open roles are posted right now. Check back soon.

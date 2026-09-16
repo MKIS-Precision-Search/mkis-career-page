@@ -33,6 +33,13 @@ export default function Home() {
             The roles below do not represent all positions available. If you would
             like to submit your resume for current and future searches, click Upload Resume.
           </p>
+          <p className="max-w-2xl text-[14px] leading-6 text-[#7b8794]">
+            If there are any technical issues, please simply email your resume to{' '}
+            <a href="mailto:mkis@mkis.us" className="font-medium text-[#1f72b7] hover:underline">
+              mkis@mkis.us
+            </a>
+            .
+          </p>
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSeQp0jlRDpvi2wNf1TdunLjDhGSV9jBHHsEcEK-4durwoMFfw/viewform?usp=pp_url&entry.657177684=Manual+Upload"
             target="_blank"

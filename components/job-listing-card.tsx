@@ -5,7 +5,7 @@ export function JobListingCard({ job }: { job: Job }) {
   return (
     <a
       href={`/roles/${job.slug}`}
-      className="group flex flex-col gap-5 border-[3px] border-[#0d1b2d] bg-white p-8 transition-colors hover:border-[#1f72b7]"
+      className="group flex flex-col gap-5 border-[1.5px] border-[#0d1b2d] bg-white p-8 transition-colors hover:border-[#1f72b7]"
     >
       <div className="flex flex-wrap items-center gap-3 font-mono text-[10px] font-bold uppercase tracking-[0.2em] text-[#1f72b7]">
         <span className="border border-[#1f72b7]/40 px-3 py-1.5">{job.classification}</span>

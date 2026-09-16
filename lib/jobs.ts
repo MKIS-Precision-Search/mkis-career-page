@@ -33,6 +33,45 @@ export type Job = {
 // Swapping this for a real data source later means replacing this file's
 // export, not touching any page or component.
 export const jobs: Job[] = [
+  /* MKIS-AUTO:technical-sales-manager-17 START (provisional slug -- managed by the MKIS ATS, do not edit by hand) */
+    {
+      slug: 'technical-sales-manager-17',
+      title: 'Technical Sales Manager',
+      reference: 'MKIS-JO-17',
+      location: 'Northwest Philadelphia Area',
+      locationType: 'On-site',
+      city: 'Spring City',
+      region: 'PA',
+      country: 'US',
+      classification: 'Executive Search',
+      summary: 'Working closely with engineers, architects, municipalities, contractors, and other key stakeholders, this individual will drive revenue growth, develop strategic customer relationships, manage key accounts, and represent a premium, U.S.-manufactured product line.',
+      description: 'Working closely with engineers, architects, municipalities, contractors, and other key stakeholders, this individual will drive revenue growth, develop strategic customer relationships, manage key accounts, and represent a premium, U.S.-manufactured product line.  Represent a respected product line supported by domestic manufacturing, strong market presence, and a commitment to quality and specification compliance.\n\nThe ideal candidate combines technical aptitude with strong relationship-building and strategic account management skills. This is primarily an in-office position with some flexibility and limited travel.\n\nCareer Growth\n\nThe company offers opportunities for long-term career development and advancement, supported by a culture of internal promotion and strong employee tenure.\n\nWork-Life Balance\n\nEnjoy a flexible and professional work environment with minimal bureaucracy and an emphasis on sustainable work practices.\n\nCompetitive Market Position\n\nThe company\'s products are engineered for durability, performance, and compliance, providing meaningful differentiation in a competitive marketplace.',
+      responsibilities: [
+        'Identify, prospect, develop, and close new business opportunities with architects, engineers, municipal agencies, Departments of Transportation, universities, public works departments, contractors, and other relevant customers.',
+        'Develop and maintain strong relationships with key decision-makers and influencers.',
+        'Serve as the technical liaison between internal engineering resources and external customers and stakeholders.',
+        'Help ensure product specifications, design intent, and project requirements are clearly understood and successfully executed.',
+        'Support customers throughout the project lifecycle, from initial opportunity and bid preparation through project completion and final handoff.',
+        'Coordinate with sales representatives, contractors, subcontractors, and internal teams to support successful project execution.',
+        'Analyze market trends, competitive activity, and customer feedback to identify opportunities and refine sales strategies.',
+        'Provide market intelligence and customer insights to sales, marketing, engineering, and product teams.',
+        'Support product positioning and pricing strategies that emphasize quality, durability, service, performance, and specification compliance rather than competing solely on price.',
+      ],
+      requirements: [
+        'Bachelor\'s degree preferred.',
+        'A degree in Electrical Engineering, Civil Engineering, or a related technical discipline is desirable.',
+        'Minimum of 5 to 7 years of experience in technical sales within the lighting, electrical, construction products, or related industries.',
+        'Demonstrated experience developing new business and managing customer relationships.',
+        'Proven success meeting or exceeding sales goals in a performance-driven or commission-based environment.',
+        'Equivalent technical knowledge and relevant industry experience will also be considered.',
+      ],
+      compensationDisplay: 'Compensation discussed confidentially during the search process.',
+      employmentType: 'FULL_TIME',
+      datePosted: '2026-09-16',
+      validThrough: '2026-12-15',
+      confidential: true,
+    },
+  /* MKIS-AUTO:technical-sales-manager-17 END */
   /* MKIS-AUTO:senior-construction-accountant-18 START (provisional slug -- managed by the MKIS ATS, do not edit by hand) */
     {
       slug: 'senior-construction-accountant-18',

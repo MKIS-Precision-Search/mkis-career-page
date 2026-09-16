@@ -28,9 +28,20 @@ export default function Home() {
       </section>
 
       <div className="mx-auto max-w-[1240px] px-6 py-14 lg:px-10 lg:py-20">
-        <div className="mb-10 flex flex-col items-center gap-5 rounded-xl border-[1.5px] border-[#0d1b2d] bg-white px-6 py-6 text-center">
+        {jobs.length === 0 ? (
+          <p className="text-[16px] leading-7 text-[#4c5d6c]">
+            No open roles are posted right now. Check back soon.
+          </p>
+        ) : (
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+            {jobs.map((job) => (
+              <JobListingCard key={job.slug} job={job} />
+            ))}
+          </div>
+        )}
+        <div className="mt-10 flex flex-col items-center gap-5 rounded-xl border-[1.5px] border-[#0d1b2d] bg-white px-6 py-6 text-center">
           <p className="max-w-2xl text-[16px] leading-7 text-[#4c5d6c]">
-            The roles below do not represent all positions available. If you would
+            The roles above do not represent all positions available. If you would
             like to submit your resume for current and future searches, click Upload Resume.
           </p>
           <p className="max-w-2xl text-[14px] leading-6 text-[#7b8794]">
@@ -49,17 +60,6 @@ export default function Home() {
             Upload Resume
           </a>
         </div>
-        {jobs.length === 0 ? (
-          <p className="text-[16px] leading-7 text-[#4c5d6c]">
-            No open roles are posted right now. Check back soon.
-          </p>
-        ) : (
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
-            {jobs.map((job) => (
-              <JobListingCard key={job.slug} job={job} />
-            ))}
-          </div>
-        )}
       </div>
 
       <SiteFooter />

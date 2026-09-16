@@ -73,7 +73,7 @@ export function JobDetail({ job }: { job: Job }) {
             )}
             {job.requirements.length > 0 && (
               <section className="border-b border-[#d6dde4] py-12">
-              <SectionHeading eyebrow="03 / Readiness" title="What We're Looking For" />
+              <SectionHeading eyebrow="03 / Readiness" title="What You Bring" />
               <ul className="flex flex-col gap-5">
                 {job.requirements.map((item) => (
                   <li key={item} className="flex gap-4 text-[16px] leading-7 text-[#4c5d6c]">

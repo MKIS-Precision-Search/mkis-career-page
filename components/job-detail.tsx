@@ -48,7 +48,13 @@ export function JobDetail({ job }: { job: Job }) {
           <article className="max-w-3xl">
             <section className="border-b border-[#d6dde4] pb-12">
               <SectionHeading eyebrow="01 / Mission" title="The Role" />
-              <p className="text-[17px] leading-8 text-[#4c5d6c]">{job.description}</p>
+              <div className="mt-6 space-y-5">
+                {job.description.split(/\n{2,}/).filter((p) => p.trim()).map((para, i) => (
+                  <p key={i} className="text-[17px] leading-8 text-[#4c5d6c]">
+                    {para}
+                  </p>
+                ))}
+              </div>
             </section>
             <section className="border-b border-[#d6dde4] py-12">
               <SectionHeading eyebrow="02 / Execution" title="What You'll Do" />

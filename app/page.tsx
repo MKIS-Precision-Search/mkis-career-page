@@ -28,8 +28,8 @@ export default function Home() {
       </section>
 
       <div className="mx-auto max-w-[1240px] px-6 py-14 lg:px-10 lg:py-20">
-        <div className="mb-10 flex flex-col items-start justify-between gap-4 rounded-xl border border-[#d6dde4] bg-white px-6 py-5 sm:flex-row sm:items-center">
-          <p className="text-[16px] leading-7 text-[#4c5d6c]">
+        <div className="mb-10 flex flex-col items-center gap-5 rounded-xl border border-[#d6dde4] bg-white px-6 py-6 text-center">
+          <p className="max-w-2xl text-[16px] leading-7 text-[#4c5d6c]">
             The roles below do not represent all positions available. If you would
             like to submit your resume for current and future searches, click Upload Resume.
           </p>

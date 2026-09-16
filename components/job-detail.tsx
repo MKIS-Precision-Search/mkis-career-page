@@ -46,7 +46,8 @@ export function JobDetail({ job }: { job: Job }) {
       <div className="mx-auto max-w-[1240px] px-6 lg:px-10">
         <div className="grid grid-cols-1 gap-12 py-14 lg:grid-cols-[minmax(0,1fr)_280px] lg:gap-24 lg:py-20">
           <article className="max-w-3xl">
-            <section className="border-b border-[#d6dde4] pb-12">
+            {job.description.trim() && (
+              <section className="border-b border-[#d6dde4] pb-12">
               <SectionHeading eyebrow="01 / Mission" title="The Role" />
               <div className="mt-6 space-y-5">
                 {job.description.split(/\n{2,}/).filter((p) => p.trim()).map((para, i) => (
@@ -56,7 +57,9 @@ export function JobDetail({ job }: { job: Job }) {
                 ))}
               </div>
             </section>
-            <section className="border-b border-[#d6dde4] py-12">
+            )}
+            {job.responsibilities.length > 0 && (
+              <section className="border-b border-[#d6dde4] py-12">
               <SectionHeading eyebrow="02 / Execution" title="What You'll Do" />
               <ul className="flex flex-col gap-5">
                 {job.responsibilities.map((item) => (
@@ -67,7 +70,9 @@ export function JobDetail({ job }: { job: Job }) {
                 ))}
               </ul>
             </section>
-            <section className="border-b border-[#d6dde4] py-12">
+            )}
+            {job.requirements.length > 0 && (
+              <section className="border-b border-[#d6dde4] py-12">
               <SectionHeading eyebrow="03 / Readiness" title="What We're Looking For" />
               <ul className="flex flex-col gap-5">
                 {job.requirements.map((item) => (
@@ -78,6 +83,7 @@ export function JobDetail({ job }: { job: Job }) {
                 ))}
               </ul>
             </section>
+            )}
             <section className="py-12">
               <SectionHeading eyebrow="04 / Terms" title="Compensation Range" />
               <p className="text-[16px] leading-7 text-[#4c5d6c]">{job.compensationDisplay}</p>

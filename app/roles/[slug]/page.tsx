@@ -31,7 +31,7 @@ export default async function RolePage({ params }: { params: Promise<{ slug: str
   if (!job) notFound()
 
   return (
-    <main className="min-h-screen bg-[#f4f6f8] text-[#12243a]">
+    <main className="min-h-screen bg-[#d8e1ea] text-[#12243a]">
       <JobPostingJsonLd job={job} />
       <SiteHeader />
       <JobDetail job={job} />

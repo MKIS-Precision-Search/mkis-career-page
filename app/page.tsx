@@ -9,7 +9,7 @@ export default function Home() {
   const jobs = getAllJobs()
 
   return (
-    <main className="min-h-screen bg-[#f4f6f8] text-[#12243a]">
+    <main className="min-h-screen bg-[#d8e1ea] text-[#12243a]">
       <SiteHeader />
 
       <section className="relative min-h-[440px] overflow-hidden bg-[#12243a] text-white md:min-h-[520px]">

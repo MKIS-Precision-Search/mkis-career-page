@@ -34,7 +34,7 @@ export default function Home() {
             like to submit your resume for current and future searches, click Upload Resume.
           </p>
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSeQp0jlRDpvi2wNf1TdunLjDhGSV9jBHHsEcEK-4durwoMFfw/viewform"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeQp0jlRDpvi2wNf1TdunLjDhGSV9jBHHsEcEK-4durwoMFfw/viewform?usp=pp_url&entry.657177684=Manual+Upload"
             target="_blank"
             rel="noopener noreferrer"
             className="shrink-0 rounded-lg bg-[#1f72b7] px-5 py-3 text-[15px] font-semibold text-white transition hover:bg-[#155a92]"

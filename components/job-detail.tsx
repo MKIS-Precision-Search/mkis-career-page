@@ -45,7 +45,7 @@ export function JobDetail({ job }: { job: Job }) {
 
       <div className="mx-auto max-w-[1240px] px-6 lg:px-10">
         <div className="grid grid-cols-1 gap-12 py-14 lg:grid-cols-[minmax(0,1fr)_280px] lg:gap-24 lg:py-20">
-          <article className="max-w-3xl">
+          <article className="max-w-3xl bg-white border-[1.5px] border-[#0d1b2d] px-8 lg:px-10 pt-10">
             {job.description.trim() && (
               <section className="border-b border-[#d6dde4] pb-12">
               <SectionHeading eyebrow="01 / Mission" title="The Role" />

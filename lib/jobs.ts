@@ -33,6 +33,51 @@ export type Job = {
 // Swapping this for a real data source later means replacing this file's
 // export, not touching any page or component.
 export const jobs: Job[] = [
+  /* MKIS-AUTO:specification-sales-representative-detroit-22 START (provisional slug -- managed by the MKIS ATS, do not edit by hand) */
+    {
+      slug: 'specification-sales-representative-detroit-22',
+      title: 'Specification Sales Representative - Detroit',
+      reference: 'MKIS-JO-22',
+      location: 'Detroit, MI',
+      locationType: 'On-site',
+      city: 'Detroit',
+      region: 'MI',
+      country: 'US',
+      classification: 'Executive Search',
+      summary: 'A growing representation organization is seeking a Specification Sales Representative to support lighting specification activity throughout the Detroit metropolitan market and surrounding Southeast Michigan territory.',
+      description: 'A growing representation organization is seeking a Specification Sales Representative to support lighting specification activity throughout the Detroit metropolitan market and surrounding Southeast Michigan territory. This role combines specification sales, lighting applications, customer education, project support, and technical guidance.\n\nThe successful candidate will work closely with lighting specifiers, designers, engineers, contractors, distributors, and other project stakeholders. The ideal professional is a knowledgeable and consultative lighting resource who can help customers evaluate options, facilitate productive design discussions, and build trusted long-term relationships.',
+      responsibilities: [
+        'Develop and maintain relationships with lighting specifiers, designers, engineering firms, and other key customer stakeholders.',
+        'Attend customer meetings and participate in design charrettes to help project teams clarify goals and evaluate lighting options.',
+        'Provide lighting product knowledge, application guidance, and technology education to customers and internal teams.',
+        'Deliver presentations and educational sessions to design firms and, as appropriate, electrical contractors and distributors.',
+        'Support lighting applications across a broad range of lighting types and project requirements.',
+        'Guide customers and internal personnel through product selection, application questions, and project-specific considerations.',
+        'Support multiple projects and customer relationships across the assigned Southeast Michigan territory.',
+        'Build trusted, long-term customer relationships through clear communication, strong follow-up, and consultative service.',
+        'Collaborate with internal teams to share customer feedback, project insight, and application knowledge.',
+        'Help stakeholders identify solutions that align with project goals, design intent, and practical application requirements.',
+      ],
+      requirements: [
+        'Relevant experience in lighting specification, lighting design, electrical engineering, applications engineering, or sales specification work.',
+        'Ability to communicate effectively with design professionals, engineers, specifiers, contractors, distributors, and internal teams.',
+        'Strong customer-facing, presentation, and relationship-management skills.',
+        'Ability to listen carefully, ask thoughtful questions, and act as a trusted advisor.',
+        'Ability to manage multiple projects and customer relationships while maintaining timely follow-up.',
+        'Broad knowledge of lighting technologies and applications across multiple lighting categories.',
+        'Experience as a lighting designer, electrical engineer, applications engineer, specification sales representative, or similar technical professional is preferred.',
+        'Experience working for a lighting representative agency or manufacturer with direct customer interaction is preferred.',
+        'Experience conducting design charrettes or presenting to architecture, engineering, or lighting design firms is beneficial.',
+        'Theatrical lighting experience is a plus but is not essential.',
+        'Ability and willingness to cover the Detroit metropolitan and Southeast Michigan territory.',
+      ],
+      compensationDisplay: 'Compensation discussed confidentially during the search process.',
+      employmentType: 'FULL_TIME',
+      datePosted: '2026-09-22',
+      validThrough: '2026-12-21',
+      confidential: true,
+    },
+  /* MKIS-AUTO:specification-sales-representative-detroit-22 END */
   /* MKIS-AUTO:senior-power-supply-design-engineer-20 START (provisional slug -- managed by the MKIS ATS, do not edit by hand) */
     {
       slug: 'senior-power-supply-design-engineer-20',

@@ -33,6 +33,50 @@ export type Job = {
 // Swapping this for a real data source later means replacing this file's
 // export, not touching any page or component.
 export const jobs: Job[] = [
+  /* MKIS-AUTO:senior-accountant-23 START (provisional slug -- managed by the MKIS ATS, do not edit by hand) */
+    {
+      slug: 'senior-accountant-23',
+      title: 'Senior Accountant',
+      reference: 'MKIS-JO-23',
+      location: 'Mayfield, OH',
+      locationType: 'On-site',
+      city: 'Mayfield',
+      region: 'OH',
+      country: 'US',
+      classification: 'Executive Search',
+      summary: 'Senior Accountant If you\'re an accountant who enjoys solving complex problems, improving processes, and understanding the "why" behind the numbers, this could be the opportunity for you.',
+      description: 'Senior Accountant\n\nIf you\'re an accountant who enjoys solving complex problems, improving processes, and understanding the "why" behind the numbers, this could be the opportunity for you. We\'re looking for a Senior Accountant who is highly-detailed, curious, and motivated to take ownership of their work. In this role, you\'ll play a key part in ensuring the accuracy of our financial reporting, supporting audits and compliance efforts, and helping drive continuous improvements across our accounting processes. You\'ll have the opportunity to work on meaningful projects, collaborate with teams across the business, and contribute to the integration of newly acquired companies as we continue to grow. This role is ideal for someone who enjoys working independently, takes pride in producing accurate work, and is always looking for ways to make processes more efficient and effective.',
+      responsibilities: [
+        'Support monthly, quarterly, and annual financial close activities, including preparing journal entries, reconciliations, and financial analyses',
+        'Prepare and finalize financial results for assigned operating and holding company subsidiaries',
+        'Analyze balance sheet and income statement accounts to ensure accuracy and completeness',
+        'Perform variance analysis and identify the business drivers behind financial results',
+        'Support global statutory audits, tax reporting requirements, and other compliance-related activities',
+        'Prepare and maintain financial models, reconciliations, reports, and analysis using Microsoft Excel',
+        'Assist with budgeting, cash flow analysis, contract reviews, and special projects',
+        'Review and provide guidance on work completed by Staff Accountants',
+        'Complete inventory analysis, reserve calculations, in-transit validations, and inventory reconciliations',
+        'Support financial integrations and operational initiatives related to acquisitions',
+      ],
+      requirements: [
+        '3-5 years of accounting experience',
+        'Strong understanding of the full accounting cycle and generally accepted accounting principles',
+        'Experience with financial analysis, financial reporting, data analysis, general ledger systems, month-end close processes, statutory compliance, and tax-related reporting',
+        'Ability to independently manage projects, solve problems, and drive issues to completion',
+        'Public accounting experience',
+        'Experience with Microsoft Dynamics 365 Finance & Operations (D365FO) or Microsoft Dynamics',
+        'Experience supporting mergers, acquisitions, and business integrations',
+        'Experience working with foreign currency transactions and intercompany eliminations',
+        'Bachelors degree required',
+        'CPA certification is preferred',
+      ],
+      compensationDisplay: 'Compensation discussed confidentially during the search process.',
+      employmentType: 'FULL_TIME',
+      datePosted: '2026-09-22',
+      validThrough: '2026-12-21',
+      confidential: true,
+    },
+  /* MKIS-AUTO:senior-accountant-23 END */
   /* MKIS-AUTO:specification-sales-representative-detroit-22 START (provisional slug -- managed by the MKIS ATS, do not edit by hand) */
     {
       slug: 'specification-sales-representative-detroit-22',

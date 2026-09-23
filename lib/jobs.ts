@@ -33,6 +33,49 @@ export type Job = {
 // Swapping this for a real data source later means replacing this file's
 // export, not touching any page or component.
 export const jobs: Job[] = [
+  /* MKIS-AUTO:contractor-sales-representative-24 START (provisional slug -- managed by the MKIS ATS, do not edit by hand) */
+    {
+      slug: 'contractor-sales-representative-24',
+      title: 'Contractor Sales Representative',
+      reference: 'MKIS-JO-24',
+      location: 'Orange County, CA',
+      locationType: 'On-site',
+      city: 'Orange County',
+      region: 'CA',
+      country: 'US',
+      classification: 'Executive Search',
+      summary: 'A growing lighting and controls organization is seeking a Contractor Sales Representative to develop and expand relationships with electrical contractors across the assigned territory.',
+      description: 'A growing lighting and controls organization is seeking a Contractor Sales Representative to develop and expand relationships with electrical contractors across the assigned territory. This individual will focus on supporting an established contractor customer base while pursuing targeted new business and helping customers identify effective lighting and controls solutions.\n\nThe ideal candidate combines contractor-facing sales experience with practical knowledge of electrical products, lighting, or controls. The position is well suited to a hands-on relationship builder who can communicate technical value, coordinate internal resources, and develop long-term customer partnerships.',
+      responsibilities: [
+        'Develop, maintain, and expand relationships with electrical contractors throughout the Orange County, CA territory.',
+        'Manage and grow an established customer base while pursuing targeted new-account opportunities.',
+        'Promote and support lighting-control solutions, with particular emphasis on controls applications and contractor adoption.',
+        'Represent and support lighting products in addition to controls offerings.',
+        'Conduct contractor visits, account calls, product discussions, and opportunity-development activities.',
+        'Identify customer needs, coordinate with internal support resources, and advance opportunities through the sales process.',
+        'Maintain consistent follow-up and provide responsive service to existing and prospective customers.',
+        'Collaborate with inside sales and internal teams to support customer satisfaction, project progress, and business growth.',
+        'Stay informed on relevant products, applications, and competitive activity within the territory.',
+      ],
+      requirements: [
+        'Professional experience calling on electrical contractors or working directly with contractor customers.',
+        'Demonstrated ability to develop and maintain business relationships within the electrical, lighting, controls, or related channel.',
+        'Strong communication, organization, follow-up, and territory-management skills.',
+        'Willingness and ability to travel throughout the Orange County, CA territory.',
+        'Ability to work independently while collaborating effectively with internal support teams.',
+        'Experience working directly for an electrical contractor or within the contractor channel is valuable.',
+        'Candidates with strong controls expertise but limited contractor experience may be considered.',
+        'Direct Lutron controls experience is highly preferred.',
+        'Experience working for a lighting or controls representative agency is highly preferred.',
+        'Background with electrical contractors, electrical distribution, lighting controls, lighting manufacturers, or related manufacturers.',
+      ],
+      compensationDisplay: 'Compensation discussed confidentially during the search process.',
+      employmentType: 'FULL_TIME',
+      datePosted: '2026-09-23',
+      validThrough: '2026-12-22',
+      confidential: true,
+    },
+  /* MKIS-AUTO:contractor-sales-representative-24 END */
   /* MKIS-AUTO:senior-accountant-23 START (provisional slug -- managed by the MKIS ATS, do not edit by hand) */
     {
       slug: 'senior-accountant-23',

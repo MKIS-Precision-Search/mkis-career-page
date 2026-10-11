@@ -107,8 +107,6 @@ export const jobs: Job[] = [
         'Public accounting background',
         'CPA or on the CPA track',
         'Microsoft Dynamics experience (D365FO a plus)',
-        'M&A or business integration exposure',
-        'Foreign currency and intercompany experience',
       ],
       compensationDisplay: 'Compensation discussed confidentially during the search process.',
       employmentType: 'FULL_TIME',

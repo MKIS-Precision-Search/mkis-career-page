@@ -33,6 +33,44 @@ export type Job = {
 // Swapping this for a real data source later means replacing this file's
 // export, not touching any page or component.
 export const jobs: Job[] = [
+  /* MKIS-AUTO:director-national-sales-14 START (provisional slug -- managed by the MKIS ATS, do not edit by hand) */
+    {
+      slug: 'director-national-sales-14',
+      title: 'Director, National Sales',
+      reference: 'MKIS-JO-14',
+      location: 'United States',
+      locationType: 'On-site',
+      city: 'United States',
+      region: '',
+      country: 'US',
+      classification: 'Executive Search',
+      summary: 'Lead North American sales and business development for secure communications, networking, and cybersecurity solutions for drones, robotics, and autonomous systems.',
+      description: 'Lead North American sales and business development for secure communications, networking, and cybersecurity solutions for drones, robotics, and autonomous systems. Focus on opening strategic defense accounts, building OEM and integrator partnerships, driving revenue, and developing a multi-million-dollar pipeline while expanding adoption of emerging cybersecurity technologies across the U.S. defense market. This is a REMOTE position.',
+      responsibilities: [
+        'Open and develop strategic accounts with U.S. defense contractors, drone manufacturers, defense integrators, and autonomous systems companies.',
+        'Generate new business opportunities and drive revenue growth across assigned accounts.',
+        'Manage complex sales engagements from initial discussions through negotiation and deal closure.',
+        'Build and maintain a multi-million-dollar sales pipeline, targeting major defense programs and OEMs.',
+        'Expand adoption of secure communications, networking, and cybersecurity solutions for drones and autonomous platforms.',
+        'Develop strategic partnerships and design-in opportunities while collaborating with Product, Marketing, and Customer Success teams.',
+      ],
+      requirements: [
+        '10+ years of B2B sales and business development experience in North America.',
+        'Proven success selling into the U.S. defense ecosystem and opening new strategic accounts.',
+        'Experience selling complex hardware, software, or integrated technology solutions with long sales cycles.',
+        'Track record of closing multi-million-dollar deals, building $10M+ pipelines, and developing relationships with defense OEMs and integrators.',
+        'Experience selling SDR-based communications, secure datalinks, or networking technologies.',
+        'Familiarity with cybersecurity solutions for mission computers, drones, and autonomous systems.',
+        'Established relationships within the U.S. and Israeli defense industries.',
+        'Experience introducing emerging technologies to new markets and driving adoption among OEMs and defense integrators.',
+      ],
+      compensationDisplay: 'Compensation discussed confidentially during the search process.',
+      employmentType: 'FULL_TIME',
+      datePosted: '2026-10-14',
+      validThrough: '2027-01-12',
+      confidential: true,
+    },
+  /* MKIS-AUTO:director-national-sales-14 END */
   /* MKIS-AUTO:manager-consolidated-accounting-25 START (provisional slug -- managed by the MKIS ATS, do not edit by hand) */
     {
       slug: 'manager-consolidated-accounting-25',

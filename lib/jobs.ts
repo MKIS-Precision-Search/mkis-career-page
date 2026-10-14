@@ -33,6 +33,47 @@ export type Job = {
 // Swapping this for a real data source later means replacing this file's
 // export, not touching any page or component.
 export const jobs: Job[] = [
+  /* MKIS-AUTO:manager-consolidated-accounting-25 START (provisional slug -- managed by the MKIS ATS, do not edit by hand) */
+    {
+      slug: 'manager-consolidated-accounting-25',
+      title: 'Manager, Consolidated Accounting',
+      reference: 'MKIS-JO-25',
+      location: 'Medina, OH',
+      locationType: 'On-site',
+      city: 'Medina',
+      region: 'OH',
+      country: 'US',
+      classification: 'Executive Search',
+      summary: 'This is a broad corporate accounting role that combines consolidated financial reporting, technical accounting, and a variety of responsibilities across the finance organization.',
+      description: 'This is a broad corporate accounting role that combines consolidated financial reporting, technical accounting, and a variety of responsibilities across the finance organization.\n\nThe position offers exposure to SEC reporting, cash flow and debt reporting, procurement contracts, rebate accruals, captive insurance entities, audit coordination, and process improvement.\n\nIt is well suited for an accounting professional who enjoys variety, understands GAAP, and wants to apply their accounting expertise across multiple areas of the business.',
+      responsibilities: [
+        'Prepare consolidated financial statements, cash flow reports, and SEC filings (10-K and 10-Q)',
+        'Analyze financial results and review balance sheet and cash flow reporting for GAAP compliance',
+        'Evaluate procurement contracts, rebate accruals, and accounting treatment',
+        'Prepare debt rollforwards and debt covenant calculations',
+        'Coordinate statutory audits, reviews, and related reconciliations',
+        'Support ERP implementations, process automation, and accounting improvements',
+      ],
+      requirements: [
+        'Strong knowledge of U.S. GAAP and corporate accounting',
+        'Experience with financial reporting and accounting analysis',
+        'Strong analytical and problem-solving skills',
+        'Attention to detail and commitment to reporting accuracy',
+        'Ability to collaborate across finance and accounting teams',
+        'Public accounting experience, preferably with a Big Four or large regional firm',
+        'Experience with consolidated financial statements and SEC reporting',
+        'Familiarity with Forms 10-K and 10-Q',
+        'Experience with cash flow, debt reporting, or covenant calculations',
+        'CPA certification',
+        'Experience with ERP implementations, automation, or process improvement',
+      ],
+      compensationDisplay: 'Compensation discussed confidentially during the search process.',
+      employmentType: 'FULL_TIME',
+      datePosted: '2026-10-14',
+      validThrough: '2027-01-12',
+      confidential: true,
+    },
+  /* MKIS-AUTO:manager-consolidated-accounting-25 END */
   /* MKIS-AUTO:contractor-sales-representative-24 START (provisional slug -- managed by the MKIS ATS, do not edit by hand) */
     {
       slug: 'contractor-sales-representative-24',

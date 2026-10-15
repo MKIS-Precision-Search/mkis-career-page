@@ -33,6 +33,45 @@ export type Job = {
 // Swapping this for a real data source later means replacing this file's
 // export, not touching any page or component.
 export const jobs: Job[] = [
+  /* MKIS-AUTO:federal-projects-healthcare-construction-supervisor-26 START (provisional slug -- managed by the MKIS ATS, do not edit by hand) */
+    {
+      slug: 'federal-projects-healthcare-construction-supervisor-26',
+      title: 'Federal Projects: Healthcare Construction Supervisor',
+      reference: 'MKIS-JO-26',
+      location: 'Cleveland, OH',
+      locationType: 'On-site',
+      city: 'Cleveland',
+      region: 'OH',
+      country: 'US',
+      classification: 'Executive Search',
+      summary: 'Lead day-to-day field operations for a major VA healthcare construction project in Cleveland, Ohio.',
+      description: 'Lead day-to-day field operations for a major VA healthcare construction project in Cleveland, Ohio. This hands-on leadership role coordinates crews and subcontractors performing MEP and concrete work in an active hospital environment, with a focus on safety, quality, scheduling, and infection control (ICRA).',
+      responsibilities: [
+        'Oversee daily construction activities, field crews, and subcontractors.',
+        'Coordinate MEP and concrete work to maintain project schedules and quality standards.',
+        'Ensure safe construction practices and compliance with hospital infection-control requirements.',
+        'Coordinate with project management, trade partners, and VA facility representatives.',
+        'Monitor progress, resolve field issues, and maintain accurate project documentation.',
+      ],
+      requirements: [
+        'Minimum 10 years of healthcare construction experience, including hospital construction or renovation in active medical facilities.',
+        'Demonstrated career progression with increasing responsibility in construction field supervision and leadership.',
+        'Experience overseeing construction crews, subcontractors, and multiple trades on complex projects.',
+        'Strong working knowledge of mechanical, electrical, plumbing (MEP), and concrete construction.',
+        'Working knowledge of ICRA (Infection Control Risk Assessment) and infection-control requirements for construction in active healthcare environments.',
+        'Previous experience with VA, federal government, or other public-sector construction projects.',
+        'Experience working in occupied hospitals, sterile environments, or critical patient-care areas.',
+        'Experience coordinating MEP system shutdowns, tie-ins, inspections, and commissioning.',
+        'Ability to interpret complex construction drawings, specifications, and project schedules.',
+        'OSHA 30 certification or additional healthcare construction safety training.',
+      ],
+      compensationDisplay: 'Compensation discussed confidentially during the search process.',
+      employmentType: 'FULL_TIME',
+      datePosted: '2026-10-15',
+      validThrough: '2027-01-13',
+      confidential: true,
+    },
+  /* MKIS-AUTO:federal-projects-healthcare-construction-supervisor-26 END */
   /* MKIS-AUTO:director-national-sales-14 START (provisional slug -- managed by the MKIS ATS, do not edit by hand) */
     {
       slug: 'director-national-sales-14',

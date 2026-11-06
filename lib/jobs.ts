@@ -33,6 +33,50 @@ export type Job = {
 // Swapping this for a real data source later means replacing this file's
 // export, not touching any page or component.
 export const jobs: Job[] = [
+  /* MKIS-AUTO:it-support-specialist-35 START (provisional slug -- managed by the MKIS ATS, do not edit by hand) */
+    {
+      slug: 'it-support-specialist-35',
+      title: 'IT Support Specialist',
+      reference: 'MKIS-JO-35',
+      location: 'Mentor, Ohio',
+      locationType: 'On-site',
+      city: 'Mentor',
+      region: 'Ohio',
+      country: 'US',
+      classification: 'Executive Search',
+      summary: 'A growing construction company needs one reliable IT person to keep its systems running.',
+      description: 'A growing construction company needs one reliable IT person to keep its systems running. This is a generalist role. You will manage servers and Microsoft 365, take care of computers, email, and passwords, and help staff when something stops working.\n\nThis is not a systems redesign role. This role  is keeping what is in place running well. Familiarity with AI-assisted coding tools is a plus for small fixes.',
+      responsibilities: [
+        'Maintain company servers: routine checks, updates, backups, and basic troubleshooting.',
+        'Administer Microsoft 365 for the whole company: Outlook, Word, Excel, Teams, OneDrive, and SharePoint.',
+        'Set up computers and accounts for new staff. Remove access when people leave.',
+        'Fix day-to-day problems with hardware, software, email, and connections.',
+        'Manage email accounts, distribution lists, shared mailboxes, passwords, and multi-factor authentication.',
+        'Keep printers, shared drives, and office systems working. Track IT equipment.',
+        'Apply updates and patches. Follow basic security practices.',
+        'Help with social media posts and small website updates as needed.',
+      ],
+      requirements: [
+        'Associate degree in computer science, information technology, or a related field. -or- Self-taught, with hands-on experience supporting systems or users.',
+        'Hands-on IT support experience in a work setting.',
+        'Working knowledge of Windows, Microsoft 365 administration, email, and basic networking.',
+        'Basic familiarity with servers, backups, and user accounts.',
+        'Patient and clear with non-technical staff.',
+        'Reliable follow-through. You close the loop and do not leave problems half-finished.',
+        'Careful with passwords and company information.',
+        'Must be a U.S. citizen or a lawful permanent resident (green card holder).',
+        'Experience as the sole IT support person for a small or mid-size business.',
+        'Familiarity with AI-assisted coding tools for small fixes or automations.',
+        'Comfort with social media and simple website edits.',
+        'An entry-level IT certification. Welcome, but hands-on ability matters more.',
+      ],
+      compensationDisplay: 'Compensation discussed confidentially during the search process.',
+      employmentType: 'FULL_TIME',
+      datePosted: '2026-11-06',
+      validThrough: '2027-02-04',
+      confidential: true,
+    },
+  /* MKIS-AUTO:it-support-specialist-35 END */
   /* MKIS-AUTO:federal-projects-healthcare-construction-supervisor-26 START (provisional slug -- managed by the MKIS ATS, do not edit by hand) */
     {
       slug: 'federal-projects-healthcare-construction-supervisor-26',

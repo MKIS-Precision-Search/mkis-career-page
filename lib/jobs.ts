@@ -33,6 +33,48 @@ export type Job = {
 // Swapping this for a real data source later means replacing this file's
 // export, not touching any page or component.
 export const jobs: Job[] = [
+  /* MKIS-AUTO:estimator-36 START (provisional slug -- managed by the MKIS ATS, do not edit by hand) */
+    {
+      slug: 'estimator-36',
+      title: 'Estimator',
+      reference: 'MKIS-JO-36',
+      location: 'Mentor, Ohio',
+      locationType: 'On-site',
+      city: 'Mentor',
+      region: 'Ohio',
+      country: 'US',
+      classification: 'Executive Search',
+      summary: 'Prepare accurate, complete bids by reviewing plans and specifications, performing quantity takeoffs, soliciting and organizing pricing from subcontractors and suppliers.',
+      description: 'Prepare accurate, complete bids by reviewing plans and specifications, performing quantity takeoffs, soliciting and organizing pricing from subcontractors and suppliers. Keep bid documentation complete and orderly so that nothing is missed ahead of a deadline. This is an excellent opportunity for someone who wants to improve construction estimating from the ground up and grow toward a career in estimating or project management.',
+      responsibilities: [
+        'Read construction drawings, plans, and specifications for upcoming bids.',
+        'Perform quantity takeoffs: measure, count, and list the materials, labor, and work items a job requires.',
+        'Send bid invitations to subcontractors and suppliers, and track responses.',
+        'Collect and compare quotes, and follow up so pricing is in before the bid deadline.',
+        'Enter quantities and pricing into spreadsheets and estimating documents.',
+        'Keep bid lists, contact lists, and project files organized and current.',
+        'Help assemble bid packages so forms and documents are complete and on time.',
+        'Support the project team with estimating documents after a bid is won, as needed.',
+      ],
+      requirements: [
+        'Some experience with, or a real interest in, the construction industry.',
+        'Comfort with numbers and basic math, and the care to get figures right.',
+        'Ability to read, or willingness to learn to read, construction plans and specifications.',
+        'Working comfort with computers, email, and spreadsheets such as Microsoft Excel.',
+        'Strong attention to detail and good follow-through on deadlines.',
+        'Clear, professional communication.',
+        'Experience with quantity takeoff or estimating software.',
+        'Construction field experience, including summer or part-time job site work.',
+        'Coursework in blueprint reading, construction estimating, or construction management.',
+        'Any exposure to gathering quotes or pricing from vendors or subcontractors.',
+      ],
+      compensationDisplay: 'Compensation discussed confidentially during the search process.',
+      employmentType: 'FULL_TIME',
+      datePosted: '2026-11-07',
+      validThrough: '2027-02-05',
+      confidential: true,
+    },
+  /* MKIS-AUTO:estimator-36 END */
   /* MKIS-AUTO:it-support-specialist-35 START (provisional slug -- managed by the MKIS ATS, do not edit by hand) */
     {
       slug: 'it-support-specialist-35',

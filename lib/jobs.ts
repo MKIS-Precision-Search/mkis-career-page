@@ -36,7 +36,7 @@ export const jobs: Job[] = [
   /* MKIS-AUTO:estimator-36 START (provisional slug -- managed by the MKIS ATS, do not edit by hand) */
     {
       slug: 'estimator-36',
-      title: 'Estimator',
+      title: 'Construction Estimator',
       reference: 'MKIS-JO-36',
       location: 'Mentor, Ohio',
       locationType: 'On-site',

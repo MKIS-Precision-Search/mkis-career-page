@@ -280,45 +280,6 @@ export const jobs: Job[] = [
       confidential: true,
     },
   /* MKIS-AUTO:contractor-sales-representative-24 END */
-  /* MKIS-AUTO:senior-accountant-23 START (provisional slug -- managed by the MKIS ATS, do not edit by hand) */
-    {
-      slug: 'senior-accountant-23',
-      title: 'Senior Accountant',
-      reference: 'MKIS-JO-23',
-      location: 'Mayfield, OH',
-      locationType: 'On-site',
-      city: 'Mayfield',
-      region: 'OH',
-      country: 'US',
-      classification: 'Executive Search',
-      summary: 'A stable, growing company looking for a Senior Accountant who wants to do the job right.',
-      description: 'A stable, growing company looking for a Senior Accountant who wants to do the job right. Clean close process, clear ownership of your areas, and leadership that values accuracy over heroics. You\'ll work on meaningful projects including acquisition integrations, with room to grow without having to jump ship. If you take pride in getting the numbers right and want a role you can settle into and build on, let\'s talk.',
-      responsibilities: [
-        'Own month-end close: journal entries, reconciliations, and variance analysis',
-        'Prepare financial results for operating and holding company subsidiaries',
-        'Support global audits, tax reporting, and compliance',
-        'Build and maintain financial models and reports in Excel',
-        'Assist with budgeting, cash flow analysis, and special projects',
-        'Guide the work of Staff Accountants',
-        'Support acquisition integrations and improve processes and controls',
-      ],
-      requirements: [
-        '3-5 years of accounting experience, with real month-end close ownership',
-        'Solid understanding of GAAP and the full accounting cycle',
-        'Experience with general ledger systems, reconciliations, and financial reporting',
-        'Someone who takes ownership of their work, solves problems, and drives things to completion',
-        'Bachelor\'s degree in accounting or finance required',
-        'Public accounting background',
-        'CPA or on the CPA track',
-        'Microsoft Dynamics experience (D365FO a plus)',
-      ],
-      compensationDisplay: 'Compensation discussed confidentially during the search process.',
-      employmentType: 'FULL_TIME',
-      datePosted: '2026-10-11',
-      validThrough: '2026-12-21',
-      confidential: true,
-    },
-  /* MKIS-AUTO:senior-accountant-23 END */
   /* MKIS-AUTO:specification-sales-representative-detroit-22 START (provisional slug -- managed by the MKIS ATS, do not edit by hand) */
     {
       slug: 'specification-sales-representative-detroit-22',
